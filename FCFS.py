@@ -19,7 +19,7 @@ while(len(request_queue)>0):
     request_queue.remove(request_queue[0])
     seek_time=0
 
-#printing total no. of head movements.        
+#printing total no. of head movements ( avg seek time ).        
 for i in range(len(l)):        
     total_head_movements+=l[i]
 print('Total head movements are:',total_head_movements)    
