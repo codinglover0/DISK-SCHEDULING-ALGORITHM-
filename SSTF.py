@@ -28,7 +28,7 @@ while(len(request_queue)>0):
     l=[]
     m=[]
     
-#printing total no. of head movements.    
+#printing total no. of head movements or avg seek time).    
 for i in range(len(n)):
     total_head_movement+=n[i]        
 print('Total head movements are:',total_head_movement)
